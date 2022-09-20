@@ -107,35 +107,36 @@ control = 5 in list
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 cap = 2 > 6
-print(type(cap))
+# print(type(cap))
 test = cap
-print(test)
+# print(test)
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
 result = 17834/34 > 87*56
-print(type(result))
-print(result)
+# print(type(result))
+# print(result)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 import math
-print(math.sqrt(25) == 5)
+# print(math.sqrt(25) == 5)
 
 #############################################next week ################################################
 #dictionaries and  sets
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+              'weight': 37.2,
+               'size': 5.77,
+              'height': 6}
 # print(employee['weight'])
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
-# name: Karen
-# surname: Jurgens
-# age: 35
-# occupation: Journalist
+my_dict = {'name': 'Karen',
+            'surname': 'Jurgens',
+              'age': 35,
+        'occupation': 'Journalist',}
+# print(my_dict['occupation'])
 # The names of the keys and values must be equal to the ones indicated above.
 
 #challenge 2:
