@@ -20,7 +20,7 @@ my_tuple = (1, 2, (10, 20), 4)
 
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
-
+print(my_tuple[2][1])
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
 
